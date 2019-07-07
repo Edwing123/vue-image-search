@@ -27,3 +27,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Production 
+See [FindImage](https://mi-portafolio123.000webhostapp.com)
