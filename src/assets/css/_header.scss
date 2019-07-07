@@ -1,0 +1,50 @@
+.header {
+    background-color: var(--secondary-bgc);
+    font-family: var(--sub-font__family);
+    padding: 16px 0px;
+    color: #ddd;
+}
+
+.page-title {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+
+    a {
+        text-decoration: none;
+        color: #ddd;
+    }
+
+    img {
+        width: 20%;
+        max-width: 120px;
+    }
+}
+
+.search-box {
+    width: 80%;
+    margin: 0px auto;
+
+    .search__input {
+        width: 80%;
+        margin: 0px auto 15px;
+        font-size: 0.8em;
+        border: none;
+        outline: none;
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+
+    .search__button {
+        font-size: 0.8em;
+        width: 100px;
+        margin: 0px auto;
+
+        &:disabled {
+            background-color: #ddd;
+            border-color: transparent;
+        }
+    }
+}
